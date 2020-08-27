@@ -1,0 +1,58 @@
+h1{
+    color: lightgreen;
+}
+.mydiv{
+	background-color: lightblue;
+	padding-top:  14px; 
+	font-size: x-large;
+	text-align-last:   center;
+	width: auto;
+	height: 50px;
+	margin-bottom: 20px;
+}
+body{
+	background-color: #115470;
+	background-size: auto;
+	size: 
+}
+.section{
+	text-align-last: center;
+	padding-right: 120px;
+	margin-bottom: 30px;
+	padding: 20px 15px;
+	background-color: #88B04B;
+
+}
+.label{
+	font-size: larger;
+}
+input{
+	font-size: larger;
+	margin-bottom: 20px;
+}
+button{
+	position: relative;
+	width: 120px;
+	height: 50px;
+	font-size: 30px;
+	transition:background color 0.25s;
+	padding-top: 12px;
+	font-family: ;
+	background-color: cyan;
+	cursor: pointer;
+	text-decoration: none; 
+	margin-right: 15px
+}
+/*button:hover{
+	background: blue;
+	padding-right: 50px;
+	position: absolute;
+}*/
+button :after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
