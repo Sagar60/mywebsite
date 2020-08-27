@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+body{
+    background-color: #115470;
+    font-family: 'PT Serif', serif;
+}
+.div a{
+	color: yellow;
+	font-size: x-large;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.div a:hover{
+	color: orange;
+	background-color: unset;
+}
+
+nav a{
+    position: relative;
+	float: right;
+	display: block;
+}
+.ar{
+    float: right;
+    right: 0;
+    text-align: right;
+}
+
+h1{
+    color: white;
+}
+nav{
+    padding: 10px 10px;
+}
+
+.ar{
+    right: 0;
+
+}
+.table1 tr td{
+    padding-left: 10px;
+}
+label{
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+.table2 tr td{
+    border-spacing: 20px;
+    padding: 20px 10px;
+
+}
+
+.btn, input{
+    font-size: larger;
+
+}
+span{
+    letter-spacing: .15rem;
+}
+@media screen and (max-width: 959px){
+    .tb tr td a{
+		font-size: x-large;
+		font-weight: 600;
+    }
+    label{
+        font-size: large;
+        font-weight: 600;
+    }
+    h1{
+        font-size: x-large;
+    }
+
+}  

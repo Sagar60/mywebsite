@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+*{
+    font-family: 'Lemonada', cursive;
+}
+.carousel-caption{
+    padding-bottom: 250px;
+    font-family: poppins;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.7em;
+    display: inline-block;
+    color: orange; 
+}
+
+.carousel-control-prev, .carousel-control-next{
+    border-image: none;
+}
+
+body{
+    background-color:  teal;
+}
+.logo{
+    float: right;
+    margin: 10px 30px;
+    top: 0;
+
+}
+.logo a{
+    margin-left: 25px;
+}
+
+.container{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.carousel-caption{
+    padding-bottom: 0;
+
+}
+.cen{
+    box-shadow: 5px 5px 5px 5px rgb(165, 160, 160);
+}
+
+h5, p{
+    color: #14f31f;
+}
+@media screen and (max-width: 959px){
+    .logo{
+        top: 0; 
+    }
+    .center{
+        display: block;
+    }
+    h2{
+        margin: 15px 15px;
+        font-weight: 500;
+        font-size: large;
+        letter-spacing: 0.5em;
+    }
+    .carousel-item img{
+        height: 300px;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+}

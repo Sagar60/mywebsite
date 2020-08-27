@@ -1,0 +1,139 @@
+body{
+	background-color: #115470;
+	
+}
+h1{
+	color: lightgreen;
+	font-size: xx-large;
+}
+.div a{
+	color: yellow;
+	font-size: 30px;
+	font-weight: 700;
+    padding-left: 10px;
+
+}
+.div{
+	padding-bottom: 10px;
+
+}
+.div a:hover{
+	color: orange;
+	background-color: unset;
+}
+.heading{
+	text-align: center;
+}
+.mydiv{
+	background-color: lightblue;
+	padding-top:  14px; 
+	font-size: x-large;
+	text-align-last:   center;
+	width: auto;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.na:hover{
+	text-decoration: underline;
+}
+.na{
+	text-decoration: none;
+}
+.section{
+	text-align-last: center;
+	padding-right: 120px;
+	margin-bottom: 30px;
+	padding: 20px 15px;
+	background-color: #fdeaa7e8;
+
+}
+.label{
+	font-size: larger;
+}
+input{
+	font-size: larger;
+	margin-bottom: 20px;
+}
+button{
+	position: relative;
+	width: 120px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 30px;
+	transition: 0.25s;
+	padding: 10px 10px 15px 10px;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: cyan;
+	cursor: pointer;
+	margin-top :20px;
+	text-decoration: none; 
+	margin-right: 15px;
+	border-radius:100px 100px 100px 100px;
+	border-color: black;
+	border-style: dotted dashed double solid;
+	box-shadow: -5px -8px #154842;
+}
+/*button:hover{
+	background: blue;
+	padding-right: 50px;
+	position: absolute;
+}*/
+button:active{
+	box-shadow: 0 5px #452117;
+	transform: translateY(4px);
+}
+
+button :after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.edit{
+    text-align-last:center;
+    font-family:Arial;
+    font-size: x-large;
+    color: #FF1012;
+    font-weight: bold;
+}
+a:hover{
+	background-color: blue;
+}
+a:link{
+	color: gold;
+}
+.inpt{
+	font-weight: 600;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-left: 10px;
+	color: #303c6c;
+	background-color: white;
+}
+nav{
+	font-style: 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif,sans-serif;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+li{
+	margin-right: 25px;
+	float: right;
+}
+li a{
+	display: block;
+	
+}
+@media screen and (max-width: 959px){
+    .tb tr td a{
+		font-size: x-large;
+		font-weight: 600;
+    }
+}  
+

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@600&display=swap');
+*{
+    font-family:  'Kreon', serif;
+}
+body{
+    background-color: rgb(75, 170, 207);
+}
+.cd li, .cd li a{
+    font-weight: 900;
+    font-size: larger;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: yellow;
+}
+.list-unstyled{
+    color: rgb(240, 50, 50);
+    font-weight: 600;
+}
+
+h1{
+    color: rgb(10, 146, 33);
+}
